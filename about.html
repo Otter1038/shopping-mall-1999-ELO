@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About the Author — Shopping Mall 1999</title>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --cream: #f5f0e8;
+      --warm-white: #faf7f2;
+      --dark: #1a1a1a;
+      --muted: #6b6358;
+      --accent: #8b7355;
+      --rule: #c9bfaf;
+    }
+
+    body {
+      background-color: var(--warm-white);
+      color: var(--dark);
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.8rem 3rem;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .site-title {
+      font-family: 'IM Fell English SC', serif;
+      font-size: 1rem;
+      letter-spacing: 0.06em;
+      color: var(--dark);
+      text-decoration: none;
+    }
+
+    .header-nav {
+      display: flex;
+      gap: 2.5rem;
+    }
+
+    .header-nav a {
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      font-size: 0.72rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .header-nav a:hover,
+    .header-nav a.active { color: var(--dark); }
+
+    main {
+      flex: 1;
+      max-width: 660px;
+      margin: 0 auto;
+      padding: 5rem 2rem 6rem;
+      animation: fadeUp 0.8s ease both;
+    }
+
+    .page-label {
+      font-family: 'Lato', sans-serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-family: 'IM Fell English SC', serif;
+      font-size: 2.4rem;
+      color: var(--dark);
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.02em;
+    }
+
+    .byline {
+      font-family: 'IM Fell English', serif;
+      font-style: italic;
+      font-size: 1rem;
+      color: var(--accent);
+      margin-bottom: 2.5rem;
+    }
+
+    .divider {
+      width: 50px;
+      height: 1px;
+      background: var(--rule);
+      margin-bottom: 2.5rem;
+    }
+
+    p {
+      font-family: 'IM Fell English', serif;
+      font-size: 1.05rem;
+      line-height: 1.9;
+      color: #3a3530;
+      margin-bottom: 1.4rem;
+    }
+
+    p em {
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 2.5rem;
+      font-family: 'Lato', sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 2px;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    .back-link:hover {
+      color: var(--dark);
+      border-color: var(--dark);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2.5rem 2rem;
+      font-family: 'Lato', sans-serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-top: 1px solid var(--rule);
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 1.4rem 1.5rem; }
+      .header-nav { gap: 1.5rem; }
+      main { padding: 3rem 1.5rem 4rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="site-title">Shopping Mall 1999</a>
+    <nav class="header-nav">
+      <a href="study.html">About the Study</a>
+      <a href="https://ucf.qualtrics.com/jfe/form/SV_b8xjPPS7rF4tmvQ" target="_blank">Pre-Test</a>
+      <a href="game.html">Enter the Mall</a>
+      <a href="https://ucf.qualtrics.com/jfe/form/SV_8jP7HcbQqAioUWW" target="_blank">Post-Test</a>
+      <a href="about.html" class="active">About the Author</a>
+      <a href="olivers-day.html">Adventures of Oliver</a>
+    </nav>
+  </header>
+
+  <main>
+    <p class="page-label">About the Author</p>
+    <h1>Ricky Finch</h1>
+    <p class="byline">by the memory of a cat named Oliver</p>
+    <div class="divider"></div>
+
+    <p>
+      Ricky Finch is a PhD candidate in the Texts &amp; Technology program at the University of Central Florida. His research sits at the intersection of digital humanities, interactive narrative, and pedagogical design.
+    </p>
+    <p>
+      His dissertation examines Twine's Chapbook story format as a platform for teaching coding concepts through interactive fiction. Using platform studies methodology, his work analyzes how Chapbook's design shapes both the creation and reception of interactive narrative — and how that design can be harnessed in the classroom.
+    </p>
+    <p>
+      <em>Shopping Mall 1999</em> is the centerpiece of that research: a game built to teach five foundational coding skills through the experience of exploring an abandoned mall, guided by a cat named Oliver.
+    </p>
+
+    <a href="index.html" class="back-link">← Back to the Mall</a>
+  </main>
+
+  <footer>
+    &copy; 2025 &nbsp;·&nbsp; University of Central Florida &nbsp;·&nbsp; Texts &amp; Technology
+  </footer>
+
+</body>
+</html>
