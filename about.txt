@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About the Author - Shopping Mall 1999</title>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --warm-white: #faf7f2;
+      --dark: #1a1a1a;
+      --muted: #6b6358;
+      --accent: #8b7355;
+      --rule: #c9bfaf;
+    }
+
+    body {
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      background-color: var(--warm-white);
+      color: var(--dark);
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0 2rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 2rem;
+    }
+
+    nav a {
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 0.72rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--dark);
+      text-decoration: none;
+      opacity: 0.6;
+      transition: opacity 0.2s;
+    }
+
+    nav a:hover { opacity: 1; }
+
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-family: 'IM Fell English SC', serif;
+      font-size: 2.5rem;
+      color: var(--dark);
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    .contact {
+      text-align: center;
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+
+    .contact a:hover {
+      opacity: 0.7;
+    }
+
+    .author-image {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .author-image img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid var(--rule);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      margin-top: 3rem;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-top: 1px solid var(--rule);
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="game.html">Enter the Mall</a>
+    <a href="about-project.html">About the Project</a>
+    <a href="about.html">About the Author</a>
+  </nav>
+
+  <div class="content">
+    <h1>About the Author</h1>
+
+    <p>Ricky Finch is a PhD candidate in the Texts & Technology program at the University of Central Florida. His research sits at the intersection of digital humanities, interactive narrative, and pedagogical design.</p>
+
+    <p>His dissertation examines Twine's Chapbook story format as a platform for teaching coding concepts through interactive fiction. Using platform studies methodology, his work analyzes how Chapbook's design shapes both the creation and reception of interactive narrative—and how that design can be harnessed in the classroom.</p>
+
+    <p><em>Shopping Mall 1999</em> is the centerpiece of that research: a game built to teach five foundational coding skills through the experience of exploring an abandoned mall, guided by a cat named Oliver.</p>
+
+    <p>Originally from Nashville, Ricky holds a BA in English from Lipscomb University and an MA in Composition, Rhetoric, and Digital Media from Nova Southeastern University. He likes Oreos, has a small obsession with Rosie the Riveter, and is directionally challenged. (Where is south, really?)</p>
+
+    <div class="contact">
+      <p><a href="mailto:richard.finch@ucf.edu">richard.finch@ucf.edu</a></p>
+    </div>
+
+    <div class="author-image">
+      <img src="rosie-wall.jpeg" alt="Framed Rosie the Riveter prints and memorabilia collection" />
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 &nbsp;·&nbsp; University of Central Florida &nbsp;·&nbsp; Texts &amp; Technology
+  </footer>
+
+</body>
+</html>
