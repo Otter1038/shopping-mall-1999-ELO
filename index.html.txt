@@ -153,17 +153,16 @@
 <body>
 
     <nav>
-      <a href="about.html">About the Study</a>
+      <a href="index.html">Home</a>
       <a href="game.html">Enter the Mall</a>
-      <a href="about.html">About the Author</a>
-      <a href="oliversday.html">Adventures of Oliver</a>
+      <a href="about-project.html">About the Project</a>
     </nav>
 
     <div class="title-block">
       <p class="eyebrow">An Interactive Learning Experience</p>
       <h1>Shopping Mall<br/>1999</h1>
       <p class="subtitle">Somewhere between the food court and the forgotten wing,<br/>something is waiting to be learned.</p>
-      <a href="about.html" class="cta-btn">Start Here</a>  <a href="game.html" class="secondary-btn">Enter the Mall</a>
+      <a href="game.html" class="cta-btn">Enter the Mall</a>
     </div>
 
     <div class="illustration">

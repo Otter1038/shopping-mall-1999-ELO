@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About the Project - Shopping Mall 1999</title>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --warm-white: #faf7f2;
+      --dark: #1a1a1a;
+      --muted: #6b6358;
+      --accent: #8b7355;
+      --rule: #c9bfaf;
+    }
+
+    body {
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      background-color: var(--warm-white);
+      color: var(--dark);
+      line-height: 1.6;
+      padding: 2rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0 2rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 2rem;
+    }
+
+    nav a {
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 0.72rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--dark);
+      text-decoration: none;
+      opacity: 0.6;
+      transition: opacity 0.2s;
+    }
+
+    nav a:hover { opacity: 1; }
+
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-family: 'IM Fell English SC', serif;
+      font-size: 2.5rem;
+      color: var(--dark);
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    h2 {
+      font-family: 'IM Fell English SC', serif;
+      font-size: 1.2rem;
+      color: var(--accent);
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    .citation {
+      font-style: italic;
+      padding-left: 2rem;
+      margin: 1.5rem 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      margin-top: 3rem;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-top: 1px solid var(--rule);
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="game.html">Enter the Mall</a>
+    <a href="about-project.html">About the Project</a>
+  </nav>
+
+  <div class="content">
+    <h1>About the Project</h1>
+
+    <p><em>Shopping Mall 1999</em> is part of a doctoral dissertation project in the Texts & Technology program at the University of Central Florida. The project investigates how Twine's Chapbook format creates and demonstrates accessibility for novice users—specifically, what affordances of Chapbook encourage novice engagement with interactive narratives and coding concepts. This work emerges from a recognition of Twine's vital role in democratizing digital storytelling and coding education. By making interactive narrative creation available to users regardless of their technical background, Twine opens pathways for diverse voices in electronic literature while enabling educators to teach computational thinking through storytelling.</p>
+
+    <p><em>Shopping Mall 1999</em> explores hypertext literature as a space for educational intervention, specifically teaching coding concepts through narrative storytelling. The piece positions Twine's Chapbook format as a creative medium and pedagogical tool, demonstrating how interactive narrative offers beginners accessible pathways to learn coding and programming concepts through story-embedded learning rather than traditional instructional approaches.</p>
+
+    <p>In <em>Shopping Mall 1999</em>, players are asked to navigate an abandoned shopping mall guided by a cat named Oliver who leads the player through four core coding concepts for creating in Twine: understanding Twine's structure, bracket syntax for linking, markdown formatting, and reveal links for progressive disclosure. These concepts emerge organically through narrative exploration. For example, players do not complete exercises about linking; they discover how links work by moving through the mall's spaces. The game teaches code not as abstract syntax but as the material infrastructure enabling the story itself.</p>
+
+    <p>The choice of Chapbook format is central to the work's pedagogical and aesthetic goals. Chapbook's built-in styling evokes classic hypertext fiction, while its syntax provides immediate visual feedback that helps learners see the relationship between code and output. As Anastasia Salter and Stuart Moulthrop note in <em>Twining: Critical and Creative Approaches to Hypertext Narratives</em>, the platform balances accessibility with meaningful technical complexity, making it ideal for teaching through interactive narrative (Salter and Moulthrop). <em>Shopping Mall 1999</em> demonstrates how the platform's technical affordances can support learners discovering code through narrative exploration.</p>
+
+    <p>The 1990s mall setting engages deliberately with hypertext's history. Just as abandoned malls represent a particular moment in American consumer culture, early hypertext fiction emerged from a specific technological and cultural moment. The game's nostalgic setting invites reflection on how hypertext literature has evolved from experimental CD-ROM works to contemporary web-based Twine narratives, while the educational focus points toward hypertext's continued relevance for teaching digital literacy.</p>
+
+    <p>The piece embraces web hypertext's constraints as pedagogical strengths. Navigation through simple linking—the web's most fundamental interaction—becomes both narrative mechanic and coding concept. The abandoned mall setting mirrors hypertext's own evolution: what was once cutting-edge becomes nostalgic, then pedagogically useful in new contexts. By teaching Twine through browser-based play rather than tutorial or classroom instruction, the game demonstrates how hypertext literature's accessibility can extend beyond creative writing into technical literacy, making code learnable through the same exploratory reading practices that define interactive fiction.</p>
+
+    <h2>Works Cited</h2>
+    <p class="citation">Salter, Anastasia, and Stuart Moulthrop. <em>Twining: Critical and Creative Approaches to Hypertext Narratives</em>. Amherst College Press, 2021.</p>
+
+    <h2>Disclosure</h2>
+    <p>The narrative content and all design decisions were created by the author. Claude (Anthropic's AI assistant) provided technical coding assistance for implementing specific Chapbook features beyond the author's expertise, such as heading formatting and syntax troubleshooting.</p>
+  </div>
+
+  <footer>
+    &copy; 2025 &nbsp;·&nbsp; University of Central Florida &nbsp;·&nbsp; Texts &amp; Technology
+  </footer>
+
+</body>
+</html>

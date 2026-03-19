@@ -1,1 +1,0 @@
-# shopping-mall-1999-ELO
